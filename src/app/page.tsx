@@ -1,9 +1,14 @@
+import { HeaderNoAuth } from "@/components/pages/noAuth";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold">OneBitFlix</h1>
-      <p className="mt-4 text-lg">Sua escola de programação online</p>
+    <>
+    <main className="flex flex-col items-center min-h-screen p-4">
+      <div className="flex flex-col w-full max-w-6xl">
+        <p className="text-1xl">&gt;_</p>
+        <HeaderNoAuth />
+      </div>
     </main>
+    </>
   );
 }
